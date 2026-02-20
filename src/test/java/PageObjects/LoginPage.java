@@ -12,13 +12,13 @@ public class LoginPage extends BasePage
 	}
 	
 	//Element
-	@FindBy(xpath="//input[@name='Email']")
+	@FindBy(xpath="//input[@id='UserName']")
 	WebElement textemail;
 	
-	@FindBy(xpath="//input[@name='Password']")
+	@FindBy(xpath="//input[@id='Password']")
 	WebElement textpwd;
 	
-	@FindBy(xpath="//input[@value='Log in']")
+	@FindBy(xpath="//button[text()='Log In']")
 	WebElement butLogin;
 	
 	//Action methods
